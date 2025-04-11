@@ -1,0 +1,12 @@
+{
+  "name": "email-processing-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "start:mail-reader": "cd packages/mail-reader && npm start",
+    "start:mail-analyzer": "cd packages/mail-analyzer && npm start"
+  }
+} 

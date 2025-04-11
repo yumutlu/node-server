@@ -1,0 +1,13 @@
+{
+  "name": "mail-analyzer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "mongoose": "^7.5.0",
+    "openai": "^4.0.0"
+  }
+}
